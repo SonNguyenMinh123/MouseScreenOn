@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Mouse On Screen</string>
+    <string name="start">Bắt đầu hiển thị chuột</string>
+    <string name="settings">Cài đặt</string>
+    <string name="information">Thông tin</string>
+    <string name="share">Chia sẻ lên facebook</string>
+    <string name="rate">Đánh giá ứng dụng</string>
+    <string name="byson">ByMinhSon</string>
+    <string name="mouse_screen">Chuột trên màn hình điện thoại</string>
+    <string name="content">Chuột trên màn hình điện thoại là ứng dụng giải trí, vui đùa và còn trêu các bạn sợ chuột nữa.Nó hiển thị hình ảnh con chuột trên màn hình điện thoại của bạn</string>
+    <string name="ok">OK</string>
+    <string name="settings_time">Cài đặt thời gian</string>
+    <string name="time">5</string>
+    <string name="off_sound">Tắt tiếng chuột</string>
+    <string name="uninstall">Gỡ ứng dụng</string>
+    <string name="app">Ứng dụng: Chuột trên màn hình điện thoại</string>
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="controlcenteros.com.minhson.mousescreenon.activities.MainActivity">
+
+    <ImageView
+        android:id="@+id/iv_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_centerInParent="true"
+        android:background="@drawable/icon_bg"/>
+
+    <controlcenteros.com.minhson.mousescreenon.widgets.TextViewCherryRegular
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iv_1"
+        android:text="@string/app"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:paddingTop="10dp"
+        android:textColor="#000"/>
+
+    <controlcenteros.com.minhson.mousescreenon.widgets.TextViewCherryRegular
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/byson"
+        android:textColor="#000"
+        android:layout_centerInParent="true"
+        android:layout_alignParentBottom="true"
+        android:textSize="20sp"/>
+
+</RelativeLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+
+        <ImageView
+            android:id="@+id/iv_dl_bg"
+            android:layout_width="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:src="@drawable/icon_bg" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@+id/iv_dl_bg"
+            android:gravity="center|left"
+            android:paddingLeft="10dp"
+            android:text="@string/mouse_screen"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="22sp" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#444" />
+
+    <TextView
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="10dp"
+        android:paddingRight="8dp"
+        android:paddingTop="8dp"
+        android:text="@string/content"
+        android:textColor="#000"
+        android:textSize="18sp" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#444"/>
+
+    <Button
+        android:id="@+id/btn_oke"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:text="@string/ok"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:background="@android:color/transparent"/>
+
+</LinearLayout>
